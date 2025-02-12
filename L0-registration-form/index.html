@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Annual Carnival</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>University Annual Carnival</h1>
+    <p>Celebrate the spirit of our university with a day of fun, food, and festivities!</p>
+  </header>
+
+  <section id="registration">
+    <h2>Register for the Carnival</h2>
+    <form id="registrationForm">
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+  
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" required>
+        <label for="male">Male</label>
+    
+        <input type="radio" id="female" name="gender" required>
+        <label for="female">Female</label>
+    
+        <input type="radio" id="other" name="gender" required>
+        <label for="other">Other</label>
+    </div>
+
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="contact">Contact Number:</label>
+      <input type="tel" id="contact" name="contact" required>
+
+      <label for="department">Department:</label>
+      <select id="department" name="department">
+        <option value="science">Science</option>
+        <option value="arts">Arts</option>
+        <option value="commerce">Commerce</option>
+        <option value="engineering">Engineering</option>
+      </select>
+
+      <label for="comments">Additional Comments:</label>
+      <textarea id="comments" name="comments"></textarea>
+
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <section id="schedule">
+    <h2>Carnival Schedule</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Event</th>
+          <th>Host</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>10:00 AM</td>
+          <td>Opening Ceremony</td>
+          <td>Prof. Anna Jones</td>
+          <td>Main Stage</td>
+        </tr>
+        <tr>
+          <td>11:00 AM</td>
+          <td>Food Festival</td>
+          <td>Student Council</td>
+          <td>Food Court</td>
+        </tr>
+        <tr>
+          <td>1:00 PM</td>
+          <td>Talent Show</td>
+          <td>Dr. Mark Lee</td>
+          <td>Main Hall</td>
+        </tr>
+        <tr>
+          <td>3:00 PM</td>
+          <td>Closing Concert</td>
+          <td>Guest Band</td>
+          <td>Main Stage</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="media">
+    <h2>Media Gallery</h2>
+    <div class="media-gallery">
+      <iframe src="https://www.youtube.com/embed/8htJwPTFvRo" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/iS-lWnlZuQ8" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/nXbXNB9E71o" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+  <section id="contributions">
+    <h2>Share Your Memories</h2>
+    <form id="contributionForm" enctype="multipart/form-data">
+      <label for="userPhoto">Upload Your Photo:</label>
+      <input type="file" id="userPhoto" name="userPhoto" accept="image/*" required>
+  
+      <label for="userClip">Upload a Short Clip:</label>
+      <input type="file" id="userClip" name="userClip" accept="video/*" required>
+      
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="user-gallery">
+      <h3>Featured Submissions</h3>
+      <p>No submissions yet. Be the first to contribute!</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 University Annual Carnival. All rights reserved.</p>
+  </footer>
+</body>
+</html>
