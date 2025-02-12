@@ -1,4 +1,4 @@
-# Weekly Timetable
+# Registration Form 
 
 This project is a simple **Registration form** webpage built using **HTML** and **CSS**. It allows users to view a structured registration form for carnival. The project focuses on using **semantic HTML elements** and **basic CSS styling** for clarity and readability.
 
